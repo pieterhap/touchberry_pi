@@ -5,13 +5,13 @@ This program lets you control the Thumper using the Touchberry Pi provided by th
 
 Be sure to change the ip address in the touchberry.cpp file to the ip address used by the Thumper.
 
-Before you can use it you have to compile everything. To do so we first have to copy the entire folder to the Raspberry Pi using this command:
+Before you can use it you have to compile everything. To do so you first have to copy the entire folder to the Raspberry Pi using this command:
 
 > scp -r touchberry_pi pi@ip-address:~
 
 the ip address has to be changed to the ip address of the Raspberry Pi.
 
-After that cd into the touchberry_pi folder and because of the Makefile included in this project the program can be easily compiled using this command:
+After that cd into the touchberry_pi folder on the Raspberry Pi and because of the Makefile included in this project the program can be easily compiled using this command:
 
 > make
 
